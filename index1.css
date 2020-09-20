@@ -1,0 +1,142 @@
+article{
+    max-width: 800px;
+    margin: 0 auto;
+    max-height: 1100px;
+    padding: 0;
+    background:url(fons.png) no-repeat;
+    /*background-size: 100%;*/
+    padding: 0;
+    border: 2px solid #FF0000;
+}
+
+
+/*.line11, .line12, .line21, .line22, .line31, .line32{
+    border: 2px solid #000;
+}*/
+/* Первая линия*/ 
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:0 ;
+    margin: 0;
+}
+/* аватарка*/
+.line11{
+    order: 1;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+/* обо мне*/
+.line12{
+    order: 2;
+    margin-top: 2px;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+}
+.line12 h1{
+    width: 200px;
+    margin-left: 40px;
+    font-size: 2em;
+    font-family: 'Jacques Francois Shadow', cursive;
+    border: 4px dashed #FF0000;
+}
+
+/* Вторая лиия*/
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding:0 ;
+    margin: 0; 
+}
+
+/* Мои контакты*/
+.line21{
+    margin-top: 75px;
+    width: 37.4%;
+    height: 200px;
+}
+
+.line21 h1{
+    margin-top: 5px;
+    width: 200px;
+    margin-left: 40px;
+    font-size: 2em;
+    font-family: 'Jacques Francois Shadow', cursive;
+    border: 4px dashed #FF0000;  
+}
+.line21 p span{
+    color: #FF0000;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+/* Навыки*/
+.line22 h1{
+    width: 250px;
+    margin-left: 5px;
+    font-size: 2em;
+    font-family: 'Jacques Francois Shadow', cursive;
+    border: 4px dashed #FF0000;
+}
+
+
+.line22{
+    margin-top: 75px;
+    width: 37.4%;
+    height: 200px;
+    text-align: center;
+
+}
+.one{
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 1.8em;
+}
+
+/*Футтер*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding:0 ;
+    margin: 0; 
+}
+
+
+/*Опыт*/
+.line31{
+    margin-top: 75px;
+    width: 37.4%;
+    height: 200px;
+}
+.line31 h1{
+    width: 250px;
+    margin-left: 5px;
+    font-size: 1.8em;
+    font-family: 'Jacques Francois Shadow', cursive;
+    border: 4px dashed #FF0000;
+}
+
+ /* Образование*/
+ .line32{
+    margin-top: 75px;
+    width: 37.4%;
+    height: 200px;
+}
+
+.line32 h1{
+    width: 250px;
+    margin-left: 5px;
+    font-size: 1.45em;
+    font-family: 'Jacques Francois Shadow', cursive;
+    border: 4px dashed #FF0000;
+}
